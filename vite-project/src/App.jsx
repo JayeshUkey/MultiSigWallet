@@ -4,7 +4,7 @@ import { ethers } from 'ethers';
 import './App.css';
 import contractABI from './contracts/MultiSigWallet.json';
 
-const contractAddress = 'YOUR_DEPLOYED_CONTRACT_ADDRESS'; // Replace with your deployed contract address
+const contractAddress = '0xfD0A8A18CFe3A95b9A5168a6C4FfD5B03381e685'; // Replace with your deployed contract address
 
 function App() {
   const [signers, setSigners] = useState(['', '', '']);
